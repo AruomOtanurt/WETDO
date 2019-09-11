@@ -1,0 +1,46 @@
+body{
+  background-color:#000;
+  width:960px;
+  margin: auto;
+}
+span{
+  color:#FFF;
+
+}
+header{
+  background-color:#08C;
+  height: 80px;
+}
+nav{
+  background-color:#08C;
+  height: 480px;
+  width: 130px;
+  margin: 15px 15px 15px 0px; /* cima direta baixo esquerda */
+  float:left;
+}
+aside{
+  background-color:#08C;
+  height: 480px;
+  width: 130px;
+  margin: 15px 0px 15px 15px; /* cima direta baixo esquerda */
+  float:right;
+}
+section{
+  background-color:#08C;
+  height: 480px;
+  width: 610px;
+  margin:15px 0px 15px 0px;
+  float:left;
+}
+footer{
+  background-color:#08C;
+  height:30px;
+  width:940px;
+  margin:0px;
+  float:left;
+}
+/* Funciona para qualquer alteração nos valores dos 'ponteiros'*/
+header,nav,section,footer,aside{
+  border-radius:10px;
+  padding: 10px;
+}
